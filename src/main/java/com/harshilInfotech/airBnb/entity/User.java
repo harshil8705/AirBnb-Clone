@@ -1,6 +1,6 @@
 package com.harshilInfotech.airBnb.entity;
 
-import com.harshilInfotech.airBnb.enums.Role;
+import com.harshilInfotech.airBnb.entity.enums.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

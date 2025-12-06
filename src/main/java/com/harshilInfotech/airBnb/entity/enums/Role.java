@@ -1,4 +1,4 @@
-package com.harshilInfotech.airBnb.enums;
+package com.harshilInfotech.airBnb.entity.enums;
 
 public enum Role {
     GUEST,
