@@ -1,7 +1,6 @@
 package com.harshilInfotech.airBnb.controller;
 
 import com.harshilInfotech.airBnb.dto.HotelDto;
-import com.harshilInfotech.airBnb.entity.Hotel;
 import com.harshilInfotech.airBnb.service.HotelService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

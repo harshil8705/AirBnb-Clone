@@ -1,7 +1,6 @@
 package com.harshilInfotech.airBnb.service;
 
 import com.harshilInfotech.airBnb.dto.HotelDto;
-import com.harshilInfotech.airBnb.entity.Hotel;
 
 public interface HotelService {
 
