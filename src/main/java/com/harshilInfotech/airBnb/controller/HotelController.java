@@ -48,8 +48,15 @@ public class HotelController {
     @DeleteMapping("/{hotelId}")
     public ResponseEntity<Void> deleteHotelById(@PathVariable Long hotelId) {
 
-        Boolean hotel = hotelService.deleteHotelById(hotelId);
+        hotelService.deleteHotelById(hotelId);
+        return new ResponseEntity<>(HttpStatus.OK);
 
+    }
+
+    @PatchMapping("/{hotelId}")
+    public ResponseEntity<Void> activateHotelById(@PathVariable Long hotelId) {
+
+        hotelService.activateHotel(hotelId);
         return new ResponseEntity<>(HttpStatus.OK);
 
     }

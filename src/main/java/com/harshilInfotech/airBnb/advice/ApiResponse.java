@@ -1,12 +1,10 @@
 package com.harshilInfotech.airBnb.advice;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
 @Data
-@Builder
 public class ApiResponse<T> {
 
     private LocalDateTime timeStamp;
